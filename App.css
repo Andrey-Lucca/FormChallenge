@@ -1,0 +1,98 @@
+*{
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 15px;
+  background: white;
+}
+
+.formGroup{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+h2{
+  width: 30%;
+}
+main{
+  width: 35%;
+  background-color: rgb(34, 34, 34);
+  border-radius: 10px;
+  height: 80vh;
+  padding: 30px
+}
+
+input:not([type='radio']),
+select{
+  height: 40px;
+  width:100%;
+  padding: 0;
+  border: 1px solid #ccc;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-family: Verdana;
+  font-size: 14px;
+  color: #333; 
+  
+}
+label{
+  padding: 10px;
+  color: white;
+}
+
+.btn{
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  border-radius: 10px;
+  border: none;
+}
+.btn:hover{
+  background-color: rgb(34, 34, 34);
+  color: white;
+  transition: 500ms;
+  border: none;
+}
+
+.btn-container{
+  margin: 30px;
+  
+}
+
+.radios-container span {
+  display: block;
+  padding-top: 10px;
+  padding-left: 20px;
+  color: white;
+}
+
+.bar-container {
+  background: white;
+  border: 1px solid #999;
+  width: 100%;
+  height: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+.bar {
+  background: #ff00224f;
+  width: 100px;
+  height: 100%;
+}
